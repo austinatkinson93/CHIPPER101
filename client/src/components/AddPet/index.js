@@ -10,8 +10,8 @@ function AddPet() {
   const [petMicrochipNumber, setPetMicrochipNumber] = useState("");
   const { fileState, setFileState } = useContext(AwsUploadContext);
 
-  const onSubmit = () => {
-    e.preventDefault
+  const onSubmit = (e) => {
+    e.preventDefault()
     axios
       .post("/api/add", {
         petName: petName,
