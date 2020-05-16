@@ -11,6 +11,7 @@ function AddPet() {
   const { fileState, setFileState } = useContext(AwsUploadContext);
 
   const onSubmit = () => {
+    e.preventDefault
     axios
       .post("/api/add", {
         petName: petName,
