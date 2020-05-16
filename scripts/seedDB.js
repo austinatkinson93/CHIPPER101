@@ -1,7 +1,7 @@
 let db = require("../models");
 let mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost/chipperdb", {
+mongoose.connect("mongodb://austin:Dec-28-1993@ds027155.mlab.com:27155/heroku_kh2vcvdf", {
     useNewUrlParser: true,
     useFindAndModify: false
 });
