@@ -79,7 +79,7 @@ function Signup() {
       isAdmin: signupState.isAdmin,
     })
       .then((res) => {
-        console.log(res);
+        console.log(res.data);
         if (res.data) {
           console.log(`Sign-in Successful`);
           setSignupState({
