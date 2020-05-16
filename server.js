@@ -62,7 +62,7 @@ app.get("*", function (req, res) {
 
 // additional user on the mLab db for heroku;
 //  mongodb://<dbuser>:<dbpassword>@ds157493.mlab.com:57493/heroku_f6qg5272
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/chipperdb", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://austin:Dec-28-1993@ds027155.mlab.com:27155/heroku_kh2vcvdf", {
   useNewUrlParser: true,
 });
 
